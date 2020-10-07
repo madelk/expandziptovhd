@@ -178,7 +178,7 @@ Function Remove-InvalidFileNameChars {
         [String]$Name
     )
   
-    $invalidChars = ([IO.Path]::GetInvalidFileNameChars() -join '') + "'"
+    $invalidChars = ([IO.Path]::GetInvalidFileNameChars() -join '') + "'" # Diskpart seems to hate having a ' in the name
     $re = "[{0}]" -f [RegEx]::Escape($invalidChars)
     return ($Name -replace $re)
 }
