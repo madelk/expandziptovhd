@@ -6,6 +6,14 @@ Put your `8-gb-dos-71-qemm` into your `ao486` folder along with a `game-cd` fold
 
 # TODO
 * WC1 and WC2 both use the same CD file names. I'll need to rename, but cue files will also have to have their text updated
+* Check MD5 on source and destination files, such and VHDs and ISOs. Delete the source if they match. This will prevent updating the timestamp, that's handy when copying only updated files over SFTP
+
+* Elite Plus (1991)
+* Frontier - First Encounters (1995)
+* Star Wars TIE Fighter (Collector's CD-ROM) (1995)
+* Theme Hospital (1997)
+* Theme Park (1994)
+* Wing Commander II Deluxe Edition (1992)
 
 # CONTRIBUTE
 ## If your game has an ISO

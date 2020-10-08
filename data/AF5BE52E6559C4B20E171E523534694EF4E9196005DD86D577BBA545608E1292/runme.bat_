@@ -1,3 +1,4 @@
 REM Elite Plus (1991)
 d:
-ELITE.EXE
+REM ELITE.EXE
+@ECHO This doesn't even boot

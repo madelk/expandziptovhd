@@ -214,7 +214,7 @@ foreach ($file in $files) {
         New-Item -Path $gameDataFolder"_"$fileWithoutExt -Force | Out-Null
         Set-Content -Path $gameScript -Value "REM $fileWithoutExt" # No game script file exists, so make one
         Add-Content -Path $gameScript -Value "d:"
-        Add-Content -Path $gameScript -Value "dir *.exe *.bat *.com"
+        Add-Content -Path $gameScript -Value "dir"
     }
 
     $cdScript = $gameDataFolder + "cd.txt"

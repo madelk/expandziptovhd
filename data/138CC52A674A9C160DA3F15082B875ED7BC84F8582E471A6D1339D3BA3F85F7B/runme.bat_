@@ -1,4 +1,4 @@
 REM Theme Park (1994)
 c:\drv\imgset ide10 game-cd/themepark.iso
 d:
-dir *.exe *.bat
+@ECHO This launches from the CD okay, but then you can't save
