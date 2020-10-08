@@ -1,0 +1,4 @@
+REM Theme Park (1994)
+c:\drv\imgset ide10 game-cd/themepark.iso
+d:
+@ECHO This launches from the CD okay, but then you can't save

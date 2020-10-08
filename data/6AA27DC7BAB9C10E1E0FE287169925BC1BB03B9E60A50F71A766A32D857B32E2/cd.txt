@@ -1,0 +1,2 @@
+SWTieCD\cd\SWTIECD.BIN
+SWTieCD\cd\SWTIECD.cue

@@ -1,0 +1,6 @@
+REM Star Wars TIE Fighter (Collector's CD-ROM) (1995)
+c:\drv\imgset ide10 game-cd/SWTIECD.cue
+d:
+cd TIECD
+REM TIE.EXE
+@ECHO This needs work, maybe something to do with TIECD
