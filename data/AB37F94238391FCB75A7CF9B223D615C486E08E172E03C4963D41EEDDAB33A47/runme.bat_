@@ -1,0 +1,5 @@
+REM Wing Commander Academy (1993)
+c:\drv\imgset ide10 game-cd/Wing Commander Academy [CD].iso
+d:
+CD WCA
+WCA.EXE
