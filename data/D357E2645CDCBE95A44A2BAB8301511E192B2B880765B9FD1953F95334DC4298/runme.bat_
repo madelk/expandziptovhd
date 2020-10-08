@@ -1,0 +1,6 @@
+REM Elder Scrolls, The - Daggerfall (1996)
+c:\drv\imgset ide10 game-cd/Daggerfall.ISO
+d:
+FALL.EXE Z.cfg
+REM Crashes the first time?
+FALL.EXE Z.cfg

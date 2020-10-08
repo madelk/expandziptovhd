@@ -1,0 +1,4 @@
+REM Wing Commander (1990)
+c:\drv\imgset ide10 game-cd/WC.cue
+d:
+run.bat

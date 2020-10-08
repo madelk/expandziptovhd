@@ -1,0 +1,6 @@
+REM DOOM II (1994)
+CONFIG -set "mididevice=default"
+del d:\DEFAULT.CFG
+copy d:\sb16\*.* d:\
+d:
+doom2.exe
