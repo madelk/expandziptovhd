@@ -1,0 +1,5 @@
+REM Star Wars X-Wing (Collector's CD-ROM) (1994)
+c:\drv\imgset ide10 game-cd/SWXWCD.cue
+d:
+cd XWINGCD
+XWINGCD.bat

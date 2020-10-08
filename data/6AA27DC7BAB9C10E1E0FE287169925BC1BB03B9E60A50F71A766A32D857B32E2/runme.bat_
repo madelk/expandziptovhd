@@ -1,0 +1,5 @@
+REM Star Wars TIE Fighter (Collector's CD-ROM) (1995)
+c:\drv\imgset ide10 game-cd/SWTIECD.cue
+d:
+cd TIECD
+TIE.EXE
