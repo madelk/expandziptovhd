@@ -211,10 +211,10 @@ foreach ($file in $files) {
     else {
         Write-Output "Unable to find config for game. provisioning"
         New-Item -ItemType Directory -Force -Path $gameDataFolder | Out-Null
-        New-Item -Path $gameDataFolder"_"$fileWithoutExt -Force
+        New-Item -Path $gameDataFolder"_"$fileWithoutExt -Force | Out-Null
         Set-Content -Path $gameScript -Value "REM $fileWithoutExt" # No game script file exists, so make one
         Add-Content -Path $gameScript -Value "d:"
-        Add-Content -Path $gameScript -Value "dir *.exe *.bat"
+        Add-Content -Path $gameScript -Value "dir *.exe *.bat *.com"
     }
 
     $cdScript = $gameDataFolder + "cd.txt"
