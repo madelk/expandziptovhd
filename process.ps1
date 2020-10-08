@@ -219,12 +219,13 @@ foreach ($file in $files) {
 
     $cdScript = $gameDataFolder + "cd.txt"
     if (Test-Path -LiteralPath $cdScript) {
-        $stream_reader = New-Object System.IO.StreamReader $cdScript
-        while ($null -ne ($current_file = $stream_reader.ReadLine())) {
+        $stream = New-Object System.IO.StreamReader $cdScript
+        while ($null -ne ($current_file = $stream.ReadLine())) {
             if (-not [string]::IsNullOrWhiteSpace($current_file)) {
                 Move-Item -Path $tempExpandedFolder$current_file -Destination $outputFolderCd -Force -Confirm:$false
             }
         }
+        $stream.close()
     }
     else {
         Set-Content -Path $cdScript -Value ""
