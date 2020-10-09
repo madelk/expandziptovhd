@@ -1,0 +1,2 @@
+SyndWars\cd\syndwar.BIN
+SyndWars\cd\syndwar.cue
