@@ -2,5 +2,4 @@ REM Theme Hospital (1997)
 c:\drv\imgset ide10 "game-cd/Theme Hospital (1997)(Electronic Arts)(M6).iso"
 d:
 CD HOSPITAL
-REM HOSPITAL.EXE
-@ECHO Need to edit the hospital.cfg. This launches off the CD fine, but might not save
+HOSPITAL.EXE
