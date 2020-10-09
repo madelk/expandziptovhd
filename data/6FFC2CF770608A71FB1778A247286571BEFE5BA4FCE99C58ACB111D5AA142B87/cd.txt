@@ -1,0 +1,4 @@
+twinsen\cd\Little_Big_Adventure_2_br.ccd
+twinsen\cd\Little_Big_Adventure_2_br.cue
+twinsen\cd\Little_Big_Adventure_2_br.img
+twinsen\cd\Little_Big_Adventure_2_br.sub

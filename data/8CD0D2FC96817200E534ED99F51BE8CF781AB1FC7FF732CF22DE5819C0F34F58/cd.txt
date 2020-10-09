@@ -1,0 +1,4 @@
+MagCarp2\cd\Magic Carpet 2.ccd
+MagCarp2\cd\Magic Carpet 2.cue
+MagCarp2\cd\Magic Carpet 2.img
+MagCarp2\cd\Magic Carpet 2.sub

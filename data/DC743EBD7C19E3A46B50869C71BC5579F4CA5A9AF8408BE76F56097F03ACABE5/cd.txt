@@ -1,0 +1,2 @@
+lba\cd\Little Big Adventure.bin
+lba\cd\Little Big Adventure.cue
