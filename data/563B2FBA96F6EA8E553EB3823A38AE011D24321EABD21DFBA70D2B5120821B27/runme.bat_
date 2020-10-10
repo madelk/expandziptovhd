@@ -1,5 +1,4 @@
 REM Frontier - First Encounters (1995)
 c:\drv\imgset ide10 game-cd/ELITE3_FIRST_ENCOUNTERS.ISO
 d:
-REM FIRSTENC.EXE
-@ECHO Not working yet
+FIRSTENC.EXE
