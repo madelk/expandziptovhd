@@ -1,3 +1,4 @@
 REM X-COM - Terror from the Deep (1995)
 d:
-dir
+CD UFO
+RUNXCOM

@@ -1,1 +1,4 @@
-
+SimCityE\cd\SIMCITY_REV.ccd
+SimCityE\cd\SIMCITY_REV.cue
+SimCityE\cd\SIMCITY_REV.img
+SimCityE\cd\SIMCITY_REV.sub

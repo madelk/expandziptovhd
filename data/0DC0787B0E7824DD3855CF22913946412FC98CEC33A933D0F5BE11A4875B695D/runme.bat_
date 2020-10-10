@@ -1,3 +1,4 @@
 REM X-COM - UFO Defense (1994)
 d:
-dir
+CD UFO
+RUNXCOM
